@@ -7,7 +7,7 @@
       <button class="btn btn-sm btn-danger mb-2" @click="handleDelete(post.id)">
         Delete Post
       </button>
-      <button class="btn btn-sm btn-success mb-2" @click="handleFav(post.id)">
+      <button class="btn btn-xs btn-success mb-2" @click="handleFav(post.id)">
         <v-if>{{ post.fev ? "Unfav" : "Fav" }}</v-if>
       </button>
     </li>
